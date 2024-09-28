@@ -30,7 +30,7 @@ image {
 }
 
 main {
-    max-width: 840;
+    max-width: 840px;
 }
 
 main img {
@@ -49,7 +49,7 @@ aside {
 }
 
 aside img {
-    width: 200;
+    width: 200px;
     height: auto;
 }
 
