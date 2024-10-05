@@ -6,7 +6,6 @@
 
     --heading-font: 'Literata';
     --body-font: 'Gentium Plus', serif, sans-serif;
-
 }
 
 .hero{
@@ -31,7 +30,6 @@
     text-align: center;
     margin: 0 auto;
     font-size: 55px;
-
 }
 
 .overlay {
@@ -39,7 +37,6 @@
     width: 50%;
     height: auto;
     padding: 15px;
-    color: var(--accent1_color);
     background-color: var(--primary-color);
     top: 300px;
     left: 0;
@@ -54,7 +51,7 @@
     margin: 0rem;
     border: 1px solid var(--secondary-color);
     padding: 3px;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     width: 300px;
     height: auto;
 }
