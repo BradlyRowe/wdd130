@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>About Us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap" rel="stylesheet">
@@ -11,13 +11,19 @@
 </head>
 <body>
     <header>
-        <img src="images/logo7_200.png" alt="logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contacts.html">Contacts</a>
-        </nav>
+      <div class="top_box">
+        <div class="grid_box">
+          <img src="images/logo7_200.png" alt="logo">
+        </div>
+        <div class="grid_box flex_container">        
+          <nav class="navbar">
+            <div class="flex_item_nav"><a href="index.html">Home</a></div>
+            <div class="flex_item_nav"><a href="about.html">About Us</a></div>
+            <div class="flex_item_nav"><a href="trips.html">Trips</a></div>
+            <div class="flex_item_nav"><a href="contacts.html">Contacts</a></div>
+          </nav>
+        </div>  
+      </div>
     </header>
     <main>
         <div class="hero">
@@ -29,40 +35,46 @@
             </article>
         </div>
         <section>
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <div class="histoy">
+                <div class="history_title"><h2>History</h2></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus aliquid eius quia expedita illo sequi optio labore assumenda. Quisquam illo voluptatibus repellendus mollitia quos maxime quas laborum. Perspiciatis hic, accusamus.Aenean ut risus sodales elit sodales sodales eu sit amet quam. Curabitur feugiat nibh eu imperdiet porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras auctor, tortor sed ornare vestibulum, erat erat semper ligula, at aliquam justo purus at massa. Vestibulum magna justo, dapibus blandit faucibus at, pharetra quis nulla.</p>
+            </div>
         </section>
         <section>
-            <h2>
-                Adventure Awaits You
-            </h2>
-            <figure>
-                <img src="images/rafting14_600.jpg" alt="rafting14_600">
-                <figcaption>River One</figcaption>
-            </figure>
-            <figure>
-                <img src="images/rafting18_600.jpg" alt="rafting18_600">
-                <figcaption>River Two</figcaption>
-            </figure>
-            <figure>
-                <img src="images/salmon-kayak3.jpg" alt="salmon-kayak3">
-                <figcaption>River Three</figcaption>
-            </figure>
-            <figure>
-                <img src="images/salmon-kayak1.jpg" alt="salmon-kayak1">
-                <figcaption>River Four</figcaption>
-            </figure>
-            <figure>
-                <img src="images/salmon-kayak5.jpg" alt="salmon-kayak5">
-                <figcaption>River Five</figcaption>
-            </figure>
+            <div class="adventure_title">
+                <h2>
+                    Adventure Awaits You
+                </h2>
+            </div>
+            <div class="adventure">
+                <figure>
+                    <img src="images/rafting14_600.jpg" alt="rafting14_600">
+                    <figcaption>River One</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting18_600.jpg" alt="rafting18_600">
+                    <figcaption>River Two</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/salmon-kayak3.jpg" alt="salmon-kayak3">
+                    <figcaption>River Three</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/salmon-kayak1.jpg" alt="salmon-kayak1">
+                    <figcaption>River Four</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/salmon-kayak5.jpg" alt="salmon-kayak5">
+                    <figcaption>River Five</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="socialmedia">
         <p>
             &copy; 2024 Mountain Whitewater Rafting Adventures | Bradly D Rowe
         </p>
-        <nav class="socialmeadia">
+        <nav>
             <a href="https://www.facebook.com">
                 <img src="images/facebook.webp" alt="Facebook" >
             </a>
