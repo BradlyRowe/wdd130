@@ -1,0 +1,47 @@
+/* Grid Setup */
+.top_box {
+  gap: 10px;
+  margin: 0 auto;
+  
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 150px;
+
+  align-items: center;
+  justify-items: center;
+}
+
+/* Flex Setup */
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+}
+
+.flex_item {
+  width:75px;
+  height: 20px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* History Section */
+.history {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.history_title {
+    display: flex;
+    width: auto;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
