@@ -31,28 +31,43 @@
         <div class="contact-us">
             <div class="contact-form">
                 <form>
-
+                  <fieldset>
+                    <legend>Contact Us</legend>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email-address">Email Address:</label><br>
+                    <input type="email" id="email-address" name="email-address" required><br>
+                    <label>Purpose:</label><br>
+                    <input type="radio" id="question" name="purpose" value="question" required>General Inquiry<br>
+                    <input type="radio" id="reservation" name="purpose" value="reservation" required>Reservation Question<br>
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion" required>Website Suggestion<br>
+                    <label for="message">Message:</label><br>                
+                    <input type="comment" id="message" name="message" required><br>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">Please subscribe me to the monthly newsletter<br>
+                    <input type="submit" value="Submit">
+                  </fieldset>
                 </form>
             </div>
-            <div class="contact-map">
+            <div class="contact-info">
                 <h2>Contact Information</h2>
-                <p>Mountain Whitewater Rafting Adventures</p>
+                <p><b>Mountain Whitewater Rafting Adventures</b></p>
                 <p>889 Twin Butte Rd</p>
                 <p>Menan, ID 83434</p>
                 <p>Phone: 208-555-1234</p>
-                <p>Email:  admin@mwra.com<a href="mailto: admin@mwra.com"></a></p>
+                <p>Email: admin@mwra.com<a href="mailto: admin@mwra.com"></a></p>
+            </div>
+            <div class="contact-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.9030719830125!2d-111.98231248730298!3d43.75410954577651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535413399872611b%3A0xdf0fe1c558bb7ad5!2s889%20Twin%20Butte%20Rd%2C%20Menan%2C%20ID%2083434!5e0!3m2!1sen!2sus!4v1729314200240!5m2!1sen!2sus" width="300" height="225" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="contact-employees">
-                <h2>Our Team</h2>
                 <div class="employee">
                     <img src="images/kim.jpg" alt="employee1">
-                    <p>John Doe</p>
+                    <p>Jane Doe</p>
                     <p>Owner</p>
                 </div>
                 <div class="employee">
                     <img src="images/steven.jpg" alt="employee2">
-                    <p>Jane Doe</p>
+                    <p>John Doe</p>
                     <p>Manager</p>
                 </div>
                 <div class="employee">
