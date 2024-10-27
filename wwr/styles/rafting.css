@@ -134,7 +134,7 @@
   }
   
   .home h2 {
-    color: #fff;
+    color: white;
     font-size: 3rem;
   }
   
@@ -184,7 +184,7 @@
     left: 0;
     right: 0;
     text-align: center;
-    color: #fff;
+    color: white;
     background-color: var(--accent2-color);
     padding: 1rem;
   }
@@ -195,7 +195,7 @@
   }
   
   .newsletter h2 {
-    color: #fff;
+    color: white;
     font-size: 3rem;
   }
   
@@ -205,7 +205,7 @@
   }
   
   .trip h2 {
-    color: #fff;
+    color: white;
     font-size: 3rem;
   }
   
@@ -347,6 +347,7 @@
   }
   
   .newsletter h2 {
+    color: white
     font-size: 2rem;
   }
   
